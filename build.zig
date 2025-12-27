@@ -7,6 +7,6 @@ pub fn build(b: *std.Build) void {
     _ = b.addModule("fps", .{ 
         .optimize = optimize, 
         .target = target, 
-        .root_source_file = .path(b, "src/fps.zig"),
+        .root_source_file = b.path("src/fps.zig"),
     });
 }

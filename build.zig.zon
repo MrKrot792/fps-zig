@@ -1,7 +1,7 @@
 .{
-    .name = .yourname,
+    .name = .fps,
     .version = "0.0.0",
-    .fingerprint = 0x5e237e062db009d3, // Changing this has security and trust implications.
+    .fingerprint = 0x552837f0ce06ab76, // Changing this has security and trust implications.
     .minimum_zig_version = "0.15.1",
     .paths = .{
         "build.zig",
